@@ -23,11 +23,6 @@ CORS(app)
 Migrate(app, db)
 
 # Models
-class Car(db.model):
-    id = db.Column(db.Integer,primary_key=True)
-    make = db.Column(db.string(255),nullable=False)
-    model =db.Column(db.string(255),nullable=False)
-    year = db.Column(db.Integer)
 
 
 
